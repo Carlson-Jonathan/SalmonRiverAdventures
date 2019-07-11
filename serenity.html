@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <!--        <?php include $_SERVER['DOCUMENT_ROOT'] . '/assignments/term-project/head.php'; ?>-->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jonathan Carlson">
+        <meta name="description" content="World-class whitewater rafting on the Salmon River near Riggins Idaho.">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+        <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+        <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+        <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+
+        <title>Fishing, tubing, kayaking and relaxing on the lazy river at Serenity Lake at Salmon River Adventures.</title>
+
+    </head>
+
+    <body>
+        <header>
+
+            <!--            <?php include $_SERVER['DOCUMENT_ROOT'].'/assignments/term-project/header.php'; ?>-->
+
+            <a href="index.html">
+                <img src="images/salmonriverlogo2.png" alt="Salmon River Adventures Logo" width="260">
+            </a>
+            <div class="subheading">The whitewater experience of a lifetime!</div>
+        </header>
+
+        <nav>
+
+            <!--            <?php include $_SERVER['DOCUMENT_ROOT'] . '/assignments/term-project/nav.php'; ?>-->
+
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" id="home">Home</a>
+                <a href="serenity.html" id="lake">Serenity Lake</a>
+                <a href="springcanyon.html" id="spring">Spring Canyon</a>
+                <a href="devilsmouth.html" id="devil">Devil's Mouth</a>
+                <a href="riverguide.html" id="guide">River Guides</a>
+                <a href="contact.html" id="contact">Contact</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </nav>
+
+        <main>
+
+            <div class="pageTitle">
+                <h1>Serenity Lake</h1>
+                <p class="subTitle">Relax and enjoy the scenery.</p>
+            </div>
+
+            <picture>
+                <source media="(max-width: 410px)" srcset="images/serenity-mini.jpg">
+                <source media="(max-width: 655px)" srcset="images/serenity-small.jpg">
+                <source media="(max-width: 900px)" srcset="images/serenity-medium.jpg">
+                <img src="images/serenity-large.jpg" alt="white water rafting">
+            </picture>
+
+            <section>
+                <div class="images">
+                    <img src="images/girlfish.jpg" alt="Devil's Mouth"><br><br>
+                    <img src="images/serenity2.jpg" alt="SRA Devil's Mouth">
+                </div>
+
+                <div class="stats">
+                    <h2>Difficulty Rating: None</h2>
+                    <p>Great for any age. Tube down the lazy river, go fishing or just enjoy the landscape.</p>
+                    <h2>Journey Length: 4 miles</h2>
+                    <p>Lazy river exit points every 1.3 miles where shuttles wait to pick you up.</p>
+                    <h2>Adventure Guide: Arial Triton</h2>
+                    <p>Our speedy guide can traverse the length of the river in minutes watching over all.</p>
+                    <h2>Danger Level: Completely Safe</h2>
+                    <p>The waist deep river empties into Serenity Lake. Life vests required.</p>
+                    <h2>Testimonials:</h2>
+                    <p>"Beautiful scenery, calm waters, friendly staff. Would recommend to anyone." <br>
+                        <span class="miniText">-Lazy Lou</span></p><br>
+                    <p>"I caught a 32 inch trout! This is the best fishing hole I have ever been to!" <br>
+                        <span class="miniText">-Joe Fisher</span></p> <br>
+                    <p>"The family and I had a great time! There are plenty of activities to keep you busy." <br>
+                        <span class="miniText">-Mommy Mormon</span></p>
+                </div>
+            </section>
+
+            <section>
+                <div class="stats">
+                    <h2>Admission Price $30 per person.<br></h2>
+                    <p>Come to fish, swim, lounge on the shore, purchase souvenirs and enjoy good food.</p>
+                    <h2>Equipment rental $25 per person + $50 deposit per group.</h2>
+                    <p>Includes use of all facilities, raft, kayak, tube, lifejacket rentals.</p>
+                    <h2>Required documents to be submitted prior to participation:</h2>
+                    <ol>
+                        <li>Liability waiver</li>
+                        <li>Emergency contact information</li>
+
+                    </ol><br>
+                    <p class="reserve"><a href="reservations.html">Reserve Your Trip</a></p>
+                </div>
+                <div class="images">
+                    <img src="images/paperwork3.jpg" alt="paperwork">
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <aside>
+                <a href="index.html">
+                    <img src="images/salmonriverlogo2.png" alt="SRA logo" width="100">
+                </a><br>
+                77 Paradise Canyon Rd, Riggins Idaho, 83549<br><br>Phone: 789-765-7345 | Email: admin@SRAdventures.com
+            </aside>
+            <p class="footer-bar">&copy; 2017 All Rights Reserved | Salmon River Adventures | <a href="terms.txt">Terms</a></p>
+
+<!--            <?php include $_SERVER['DOCUMENT_ROOT'].'/assignments/term-project/footer.php'; ?>-->
+
+        </footer>
+
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/generalscripts.js"></script>
+        <script>wayfinder("lake");</script>
+
+    </body>
+</html>

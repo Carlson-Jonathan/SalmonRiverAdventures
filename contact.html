@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <!--        <?php include $_SERVER['DOCUMENT_ROOT'] . '/assignments/term-project/head.php'; ?>-->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jonathan Carlson">
+        <meta name="description" content="World-class whitewater rafting on the Salmon River near Riggins Idaho.">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+        <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+        <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+        <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+
+        <title>Contact Salmon River Adventures in Riggins Idaho.g</title>
+
+    </head>
+
+    <body>
+        <header>
+
+            <!--            <?php include $_SERVER['DOCUMENT_ROOT'].'/assignments/term-project/header.php'; ?>-->
+
+            <a href="index.html">
+                <img src="images/salmonriverlogo2.png" alt="Salmon River Adventures Logo" width="260">
+            </a>
+            <div class="subheading">The whitewater experience of a lifetime!</div>
+        </header>
+
+        <nav>
+
+            <!--            <?php include $_SERVER['DOCUMENT_ROOT'] . '/assignments/term-project/nav.php'; ?>-->
+
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" id="home">Home</a>
+                <a href="serenity.html" id="lake">Serenity Lake</a>
+                <a href="springcanyon.html" id="spring">Spring Canyon</a>
+                <a href="devilsmouth.html" id="devil">Devil's Mouth</a>
+                <a href="riverguide.html" id="guide">River Guides</a>
+                <a href="contact.html" id="contact">Contact</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </nav>
+
+<!--            <?php include $_SERVER['DOCUMENT_ROOT'] . '/assignments/term-project/nav.php'; ?>-->
+        <main>
+
+            <div class="pageTitle">
+                <h1>Contact Us</h1>
+                <p class="subTitle">Let us help you plan your adventure.</p>
+            </div>
+
+            <picture>
+                <source media="(max-width: 410px)" srcset="images/spcanyon-mini.jpg">
+                <source media="(max-width: 655px)" srcset="images/spcanyon-small.jpg">
+                <source media="(max-width: 900px)" srcset="images/spcanyon-medium.jpg">
+                <img src="images/spcanyon-large.jpg" alt="Spring Canyon whitewater raftin">
+            </picture>
+
+            <div class="srascript">
+                <p> You have never been kayaking or river rafting until you have traversed the world-class rapids of the Salmon River. Located in central Idaho, the Salmon River is Mother Nature’s gift to extreme adventures seeking the ultimate whitewater experience.
+                    <br><br>
+                    Salmon River Adventures, based in Riggins Idaho, is the gateway to your journey down this extraordinary river. Our mission is to provide you with the highest quality services the Salmon River Canyon has to offer while helping you to obtain the memories of a lifetime. Salmon River Adventures serves everyone. Your tri-fold adventure begins here.</p>
+            </div>
+
+            <section class="homecontainer">
+                <div class="contactstuff">
+                    <h2>Address:</h2>
+                    <p>
+                        Salmon River Adventures<br>
+                        1000 Main St<br>
+                        Riggins, Idaho 83549<br>
+                    </p>
+                    <h2>Phone:</h2>
+                    <p>789-765-7345</p>
+                    <h2>Email:</h2>
+                    <p>admin@SRAdventures.com</p>
+                </div>
+
+                <div class="contact">
+                    <h2>Send us a message:</h2>
+                    <form action="confirmation.html">
+                        <input type="email" name="email" placeholder="Enter your email address here">
+                    </form>
+                        <form action="confirmation.html">
+                        <textarea placeholder="Type your message here..." name="message" rows="4" cols="35"></textarea>
+                    </form>
+                    <form action="confirmation.html">
+                        <input type="submit" class="submit">
+                    </form>
+                </div>
+
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.6122545391354!2d-116.32013982898586!3d45.41715803767134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c56be892013d%3A0xf34792f82bc2a30b!2s1000+Main+St%2C+Riggins%2C+ID+83549!5e0!3m2!1sen!2sus!4v1504212412401" width="800" height="600" style="border:0" allowfullscreen></iframe>
+            </section>
+
+        </main>
+
+        <footer>
+            <aside>
+                <a href="index.html">
+                    <img src="images/salmonriverlogo2.png" alt="SRA logo" width="100">
+                </a><br>
+                77 Paradise Canyon Rd, Riggins Idaho, 83549<br><br>Phone: 789-765-7345 | Email: admin@SRAdventures.com
+            </aside>
+            <p class="footer-bar">&copy; 2017 All Rights Reserved | Salmon River Adventures | <a href="terms.txt">Terms</a></p>
+
+<!--            <?php include $_SERVER['DOCUMENT_ROOT'].'/assignments/term-project/footer.php'; ?>-->
+
+        </footer>
+
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/generalscripts.js"></script>
+        <script>wayfinder("contact");</script>
+
+    </body>
+</html>
